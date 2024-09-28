@@ -1,0 +1,50 @@
+/*
+  Use the following to include this css file
+  <link rel="stylesheet" href="styles1.css" />
+*/
+* {
+    font: verdana;
+  }
+  
+  body {
+    background-color: beige;
+  
+  }
+  
+   /*CSS COMMENTS*/
+  
+       /*This is a single line comment*/
+       
+       /*
+       This is a multi-line 
+       comment
+       */
+   
+   /*CSS COLORS*/
+      /*CSS Background Color*/
+         h1#BC {
+           background-color: dodgerblue;
+         }
+         
+         p#BC {
+           background-color: tomato;
+         }
+         
+      /*CSS Text Color*/
+       h1#TC {
+         color: Tomato;
+       }
+       
+      p#TC {
+        color: blue;
+      }
+      
+      /*CSS Border Color*/
+       h1#BrC {
+         border: 1px solid Tomato;
+       }
+       
+      p#BrC {
+        border: 2px solid blue;
+      }
+      
