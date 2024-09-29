@@ -8,7 +8,7 @@
   
   body {
     background-color: beige;
-  
+    text-align: center;
   }
   
    /*CSS COMMENTS*/
@@ -47,4 +47,3 @@
       p#BrC {
         border: 2px solid blue;
       }
-      

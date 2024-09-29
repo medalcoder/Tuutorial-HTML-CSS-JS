@@ -73,3 +73,62 @@ function demo9() {
   document.getElementById("demo9").innerHTML =lastname;
 }
 
+//JAVASCRIPT COMMENTS
+//Single line comment
+
+//Using comment to prevent execution
+/*
+Multiline comment in JS
+*/
+
+/*
+function demo9() {
+  let lastname, lastName;
+  lastName = "Doe";
+  lastname = "Peterson";
+
+  document.getElementById("demo9").innerHTML =lastname;
+}
+*/
+
+//JAVASCRIPT VARIABLES
+
+//Variables are Containers for Storing Data
+
+//Using var
+function demo10() {
+  var x = 5;
+  var y = 6;
+  var z = x + y;
+  document.getElementById("demo10").innerHTML = "The value of z is: " + z;
+}
+
+demo10();
+
+//Using Let
+function demo11() {
+  let x = 5;
+  let y = 6;
+  let z = x + y;
+
+  document.getElementById("demo11").innerHTML = "The value of z is: " + z;
+}
+
+//Using const
+function demo12() {
+  const x = 5;
+  const y = 6;
+  const z = x + y;
+
+  document.getElementById("demo12").innerHTML = "The value of z is: " + z;
+}
+
+//Using const
+function demo13() {
+  const price1 = 5;
+  const price2 = 6;
+  let total = price1 + price2;
+
+  document.getElementById("demo13").innerHTML = "The value of the commodity is : " + total;
+}
+
