@@ -165,17 +165,70 @@ function demo18() {
 }
 
 //JavaScript Dollar Sign $
+function demo19() {
+  let $ = "Hello World";
+  let $$$ = 2;
+  let $money = 5;
 
+  document.getElementById("demo19").innerHTML = $$$ + $money;
+}
 //JavaScript Underscore(_)
+function demo20() {
+  let _lastName = "Johnson"
+  let _x = 2;
+  let _100 = 5;
 
-//
-
+  document.getElementById("demo20").innerHTML = _x + _100;
+}
 
 //JAVASCRIPT LET
+//This chapter explains the let usage, code cannot be written here
 
 //JAVASCRIPT CONST
+//Constant Arrays
+function demo21() {
+  const cars = ["Saab", "Volvo", "BMW"];
+  cars[0] = "Toyota";
+  cars.push("Audi");
+
+  document.getElementById("demo21").innerHTML = cars;
+}
+
+//Constant Objects
+function demo22() {
+  const car = {type:"Fiat", model:"500", color:"white"};
+  car.color = "red";
+  car.owner = "Johnson";
+  
+  document.getElementById("demo22").innerHTML = "Car owner is," + car.owner + " with the car color " + car.color;
+}
+
+//JavaScript Hoisting
+function demo23() {
+  carName = "Volvo"
+  document.getElementById("demo23").innerHTML = carName;
+  var carName;
+}
 
 //JAVASCRIPT OPERATORS
+//JavScript Assignment
+
+//JavaScript Addition
+
+//JavaScript Multiplication
+
+//JavaScript Arithmetic Operators
+
+//JavaScript Assignment Operators
+
+// JavaScript Comparison Operators
+
+//JavaScript String Comparison
+
+//JavaScript String Addition
+
+//Adding String and Numbers 
+
 
 //JAVASCRIPT ARITHMETIC
 
