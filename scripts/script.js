@@ -212,25 +212,105 @@ function demo23() {
 
 //JAVASCRIPT OPERATORS
 //JavScript Assignment
+function demo24() {
+  let x = 5;
+  let y = 10;
+  let z = x + y;
 
+  document.getElementById("demo24").innerHTML = "The value of the commodity is " + z;
+}
 //JavaScript Addition
+function demo25() {
+  let x = 5;
+  let y = 10;
+  let z = x + y;
 
+  document.getElementById("demo25").innerHTML = "The value of the commodity is " + z;
+}
 //JavaScript Multiplication
+function demo26() {
+  let x = 5;
+  let y = 10;
+  let z = x * y;
 
+  document.getElementById("demo26").innerHTML = "The value of the commodity is " + z;
+}
 //JavaScript Arithmetic Operators
+function demo27() {
+  let a = 3;
+  let x = (100 + 50) * a;
 
+  document.getElementById("demo27").innerHTML = x;
+}
 //JavaScript Assignment Operators
+function demo28() {
+  let x = 10;
+  x += 5;
 
+  document.getElementById("demo28").innerHTML = x;
+}
 // JavaScript Comparison Operators
-
 //JavaScript String Comparison
+function demo29() {
+  let text1 = "A"
+  let text2 = "B"
+  let result = text1 < text2;
 
+  document.getElementById("demo29").innerHTML = "Is letter A lesser than letter B? " + result;
+}
 //JavaScript String Addition
+function demo30() {
+  let text1 = "Hello";
+  let text2 = "World";
+  let text3 = text1 + " " + text2;
 
+  document.getElementById("demo30").innerHTML = "The printout phrase of every language in tech is " + text3;
+}
+
+function demo31() {
+  let text1 = "Hello, ";
+  text1 += "Have a nice day"
+
+  document.getElementById("demo31").innerHTML = text1;
+}
 //Adding String and Numbers 
+function demo32() {
+  let x = 5 + 5;
+  let y = "5" + 5;
+  let z = "Hello" + 5;
 
+  document.getElementById("demo32").innerHTML = x + "<br>" + y +"<br>" + z;
+}
 
 //JAVASCRIPT ARITHMETIC
+
+// Adding
+function demo33() {
+  let x = 5 + 5;
+  let y = 2;
+  let z = x + y;
+
+  document.getElementById("demo33").innerHTML = z;
+}
+// Subtracting
+function demo34() {
+  let x = 5 + 5;
+  let y = 2;
+  let z = x - y;
+
+  document.getElementById("demo34").innerHTML = z;
+}
+// Multiplying
+
+// Dividing
+
+// Incrementing
+
+// Decrementing
+
+// Exponentiation
+
+// Operator Precedence
 
 //JAVASCRIPT ASSIGNMENT
 
