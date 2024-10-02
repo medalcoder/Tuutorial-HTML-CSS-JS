@@ -1,53 +1,104 @@
-/*
-  Use the following to include this css file
-  <link rel="stylesheet" href="styles1.css" />
-*/
+/* CSS SELECTORS */
+/* Element Selector */
+body {
+  background-color: beige;
+  text-align: center;
+}
+/* Universal Selector */
 * {
-    font: verdana;
-  }
-  
-  body {
-    background-color: beige;
-    text-align: center;
-  }
-  
+  font: verdana;
+  /* text-align: center; */
+}
+
+/* Id Selector */
+pre#IdSelector {
+  background-color: greenyellow;
+}
+
+/* Class Selector */
+.classSelector {
+  color: red;
+  text-align: center;
+}
+.specificSelector {
+  color: blue;
+}
+
+.moreThanOneClass {
+  color: green;
+  text-align: center;
+}
+
+/* Grouping Selector */
+/* h1, p, pre {
+  font-size: medium;
+  color: aquamarine;
+} */
+
 /*CSS COMMENTS*/
   
-       /*This is a single line comment*/
+/*This is a single line comment*/
        
-       /*
-       This is a multi-line 
-       comment
-       */
+/*
+This is a multi-line 
+comment
+*/
    
 /*CSS COLORS*/
-      /*CSS Background Color*/
-         h1#BC {
-           background-color: dodgerblue;
-         }
+/*CSS Background Color*/
+h1#BC {
+  background-color: dodgerblue;
+}
          
-         p#BC {
-           background-color: tomato;
-         }
+p#BC {
+  background-color: tomato;
+}
          
-      /*CSS Text Color*/
-       h1#TC {
-         color: Tomato;
-       }
-       
-      p#TC {
-        color: blue;
-      }
-      
-      /*CSS Border Color*/
-       h1#BrC {
-         border: 1px solid Tomato;
-       }
-       
-      p#BrC {
-        border: 2px solid blue;
-      }
+/*CSS Text Color*/
+  h1#TC {
+    color: Tomato;
+  }
+  
+p#TC {
+  color: blue;
+}
+
+/*CSS Border Color*/
+  h1#BrC {
+    border: 1px solid Tomato;
+  }
+  
+p#BrC {
+  border: 2px solid blue;
+}
 /* CSS BACKGROUNDS */
+/* Background Color */
+p.demo1 {
+  background-color: greenyellow;
+  }
+  /* Opacity */
+  p.demo2 {
+    background-color: greenyellow;
+    opacity: 1;
+  }
+  p.demo3 {
+    background-color: blue;
+    opacity: 0.5
+  }
+  p.demo4 {
+    background-color: blueviolet;
+    opacity: 0.3;
+  }
+  
+/* Background Image */
+div.demo5 {
+  background-image: url("images/images-removebg-preview.png");
+}
+/* Background Repeat */
+
+/* Background Attachment */
+
+/* Background Shorthand */
 
 /* CSS BORDERS */
 /* CSS MARGINS */
@@ -55,6 +106,7 @@
 /* CSS HEIGHT/WIDTH */
 /* CSS BOX MODEL */
 /* CSS OUTLINE */
+
 /* CSS TEXT */
 /* CSS FONTS */
 /* CSS ICONS */
