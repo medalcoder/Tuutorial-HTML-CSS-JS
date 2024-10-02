@@ -3,6 +3,8 @@
 body {
   background-color: beige;
   text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 /* Universal Selector */
 * {
@@ -89,22 +91,229 @@ p.demo1 {
     background-color: blueviolet;
     opacity: 0.3;
   }
-  
+
 /* Background Image */
 div.demo5 {
-  background-image: url("images/images-removebg-preview.png");
+  width: 700px;
+  height: 300px;
+  background-image: url("images\stage_1684927456.jpeg");
 }
-/* Background Repeat */
+/* Background Image Repeat */
+/* Background-repeat */
+div.demo6 {
+  background-image: url("images\download-removebg-preview (1).png");
+  background-repeat: repeat-x;
+}
 
+/* Background-repeat: no-repeat */
+div.demo7 {
+  background-image: url("images\download-removebg-preview (1).png");
+  background-repeat: no-repeat;
+}
+
+/* Background Position */
+div.demo8 {
+  background-image: url("images\download-removebg-preview (1).png");
+  background-repeat: no-repeat;
+  background-position: right-top;
+}
 /* Background Attachment */
-
+/* Background attachment */
+div.demo9 {
+  background-image: url("images\download-removebg-preview (1).png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+div.demo10 {
+  background-image: url("images\download-removebg-preview (1).png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
 /* Background Shorthand */
-
+div.demo11 {
+  background: #fff url("images\download-removebg-preview (1).png") no-repeat right top;
+  margin-left: 200px;
+}
 /* CSS BORDERS */
+/* Border Style */
+p.demo12 {
+  border-style: dotted;
+}
+p.demo13 {
+  border-style: dashed;
+}
+p.demo14 {
+  border-style: solid;
+}
+p.demo15 {
+  border-style: double;
+}
+p.demo16 {
+  border-style: groove;
+}
+p.demo17 {
+  border-style: ridge;
+}
+p.demo18 {
+  border-style: inset;
+}
+p.demo19 {
+  border-style: outset;
+}
+p.demo20 {
+  border-style: none;
+}
+p.demo21 {
+  border-style: hidden;
+}
+p.demo22 {
+  border-style: dotted dashed solid double;
+}
+
+/* CSS Border Width */
+/* Border width */
+p.demo23 {
+  border-style: solid;
+  border-width: 5px;
+}
+p.demo24 {
+  border-style: solid;
+  border-width: medium;
+}
+p.demo25 {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.demo26 {
+  border-style: dotted;
+  border-width: thick;
+}
+
+/* Specific Side Widths */
+p.demo27 {
+  border-style: solid;
+  border-width: 5px 20px; /*5px top and bottom, 20px on the sides*/
+}
+
+p.demo28 {
+  border-style: solid;
+  border-width: 20px 5px;/*20px top and bottom 5px on the sides*/
+}
+
+p.demo29 {
+  border-style: solid;
+  border-width: 25px 10px 4px 35px; /*25px top, 10px right, 4px bottom and 35px left */
+}
+
+/* CSS Border Color */
+/* Specific Side Colors */
+p.demo30 {
+  border-style: solid;
+  border-color: red green blue yellow ;
+}
+/* HEX Values */
+p.demo33 {
+  border-style: solid;
+  border-color: #ff0000; /* red */
+}
+/* RGB Values */
+p.demo34 {
+  border-style: solid;
+  border-color: rgb(255, 0, 0); /* red */
+}
+/* HSL Values */
+p.demo35 {
+  border-style: solid;
+  border-color: hsl(0, 100%, 50%); /* red */
+}
+/* CSS Border Sides */
+/* Individual Sides */
+p.demo36 {
+  border-top-style: solid;
+  border-right-style: dotted;
+  border-bottom-style: solid;
+  border-bottom-style: dotted;
+}
+/* Shortcut */
+p.demo37 {
+  border-top-style: dotted solid;
+}
+/* Four values */
+p.demo38 {
+  border-top-style: solid dotted double dashed;
+}
+/* Three values */
+p.demo39 {
+  border-top-style: dotted solid double;
+}
+
+/* Two Values */
+p.demo40 {
+  border-style: dotted solid;
+}
+
+/* One value */
+p.demo41 {
+  border-style: dotted;
+}
+/* CSS Shorthand Border Property  */
+p.demo42 {
+  border: 5px solid red;
+}
+
+/* Left Border */
+p.demo43 {
+  border-left: 5px solid red;
+}
+/* Bottom Border */
+p.demo44 {
+  border-bottom: 6px solid red;
+}
+/* CSS Rounded Borders */
+p.demo45 {
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
 /* CSS MARGINS */
-/* CSS PADDING */
-/* CSS HEIGHT/WIDTH */
+/* Margins */
+/* Individuals Sides */
+p.demo46 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border: 1px solid black;
+}
+/* Shorthand Property */
+/* Four Values */
+p.demo47 {
+  margin: 10px 30px 10px 30px;
+  border: 1px solid black;
+}
+/* Three Values */
+p.demo48 {
+  margin: 25px 50px 5px;
+  border: 1px solid black;
+}
+/* Two Values */
+p.demo49 {
+  margin: 25px 50px;
+  border: 1px solid black;
+}
+/* One Value */
+p.demo50 {
+  margin: 25px;
+  border: 1px solid black;
+}
+
+/* Margin Collapse*/
+
 /* CSS BOX MODEL */
+
 /* CSS OUTLINE */
 
 /* CSS TEXT */
