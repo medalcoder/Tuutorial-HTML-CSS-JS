@@ -310,12 +310,220 @@ p.demo50 {
   border: 1px solid black;
 }
 
+/* The auto Value */
+div.demo51 {
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+/* The inherit Value */
+div.demo52 {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+p.demo52 {
+  margin-left: inherit;
+}
 /* Margin Collapse*/
+h1.demo53{
+  margin: 0 0 50px 0;
+}
+
+h2.demo53 {
+  margin: 20px 0 0 0;
+}
+/* CSS PADDING */
+/* Padding Individual Sides */
+div.demo54 {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-bottom: 80px;
+  border: 1px solid green;
+}
+/* Padding Shorthand Property */
+div.demo55 {
+  padding: 50px 30px 80px;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+
+/* Four Values */
+p.demo56 {
+  padding: 10px 30px 10px 30px;
+  border: 1px solid black;
+}
+/* Three Values */
+p.demo57 {
+  margin: 25px 50px 5px;
+  border: 1px solid black;
+}
+/* Two Values */
+p.demo58 {
+  margin: 25px 50px;
+  border: 1px solid black;
+}
+/* One Value */
+p.demo59 {
+  margin: 25px;
+  border: 1px solid black;
+}
+
+/* Padding and Element Width */
+h2.demo60 {
+  width: 300px;
+  padding: 25px;
+  background-color: yellow;
+}
+div.demo60 {
+  width: 300px;
+  padding: 25px;
+  background-color: lightblue;
+  box-sizing: border-box;
+}
+
+/* CSS HEIGHT/WIDTH */
+/* Height and Width Values */
+div.demo61 {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+
+div.demo62 {
+  height: 100px;
+  width: 500px;
+  background-color: powderblue;
+  /* align-items: center; */
+}
+/* Setting max-width */
+div.demo63 {
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+  /* align-items: center; */
+}
 
 /* CSS BOX MODEL */
+/* Demonstration of the box model */
+div.demo64 {
+  background-color: powderblue;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 25px;
+}
 
+/* Width and Height of an Element */
+div.demo65 {
+  border: 5px solid gray;
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  margin: inherit;
+}
 /* CSS OUTLINE */
+/* Outline */
+/* Outline Styles */
+p.dotted {
+  outline-style: dotted;
+  border: 1px solid red;
+}
+p.dashed {
+  outline-style: dashed;
+  border: 1px solid red;
+}
+p.solid {
+  outline-style: solid;
+  border: 1px dotted red;
+}
+p.double {
+  outline-style: double;
+  border: 1px solid red;
+}
+p.groove {
+  outline-style: groove;
+  border: 1px solid red;
+}
+p.ridge {
+  outline-style: ridge;
+  border: 1px solid red;
+}
+p.inset {
+  outline-style: inset;
+  border: 1px solid red;
+}
+p.outset {
+  outline-style: outset;
+  border: 1px solid red;
+}
 
+/* Outline Width */
+p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+}
+
+p.ex2 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: medium;
+}
+
+p.ex3 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
+}
+
+p.ex4 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 4px;
+}
+/* Outline Color */
+/* Color Names */
+div.demo66 {
+  border: 2px solid black;
+  outline-style: dotted;
+  outline-color: blue;
+}
+/* HEX Values */
+div.demo67 {
+  outline-style: solid;
+  outline-color: #ff0000; /* red */
+}
+
+/* RGB Values */
+div.demo68 {
+  outline-style: solid;
+  outline-color: rgb(255, 0, 0); /* red */
+}
+
+/* HSL Values */
+div.demo69 {
+  outline-style: solid;
+  outline-color: hsl(0, 100%, 50%); /* red */
+}
+/* Outline Shorthand */
+div.demo70 {
+  outline: 2px solid red;
+}
+
+/* Outline Offset */
+div.demo71 {
+  margin: 30px;
+  padding: 20px;
+  background: yellow;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
 /* CSS TEXT */
 /* CSS FONTS */
 /* CSS ICONS */
