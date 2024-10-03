@@ -300,19 +300,192 @@ function demo34() {
 
   document.getElementById("demo34").innerHTML = z;
 }
-// Multiplying
 
+// Multiplying
+function demo35() {
+  let x = 5;
+  let y = 2;
+  let z = x * y;
+
+  document.getElementById("demo35").innerHTML = z;
+}
 // Dividing
+function demo36() {
+  let x = 5;
+  let y = 2;
+  let z = x / y;
+  
+  document.getElementById("demo36").innerHTML = z;
+}
+
+//Remainder
+function demo37() {
+  let x = 5;
+  let y = 2;
+  let z = x % y;
+  
+  document.getElementById("demo37").innerHTML = z;
+}
 
 // Incrementing
+function demo38() {
+  let x = 5;
+  x++;
+  let z = x;
+  
+  document.getElementById("demo38").innerHTML = z;
+}
 
 // Decrementing
+function demo39() {
+  let x = 5;
+  x--;
+  let z = x;
+  
+  document.getElementById("demo39").innerHTML = z;
+}
 
 // Exponentiation
+function demo40() {
+  let x = 5;
+  let z = x ** 2;
+  
+  document.getElementById("demo40").innerHTML = z;
+}
 
 // Operator Precedence
+function demo41() {
+  let x = 100 + 50 * 3;
 
+  document.getElementById("demo41").innerHTML = x;
+}
 //JAVASCRIPT ASSIGNMENT
+// Assignment Operators
+// The = Operator
+function demo42() {
+  let x = 5;
+  let y = 6;
+
+  document.getElementById("demo42").innerHTML = x + y;
+}
+// The += Operator
+function demo43() {
+  let x = 10;
+  x += 5;
+  
+  document.getElementById("demo43").innerHTML = "Value of x is: " + x;
+}
+
+// The -= Operator
+function demo44() {
+  let x = 10;
+  x -= 5;
+  
+  document.getElementById("demo44").innerHTML = "Value of x is: " + x;
+}
+// The *= Operator
+function demo45() {
+  let x = 10;
+  x *= 5;
+  
+  document.getElementById("demo45").innerHTML = "Value of x is: " + x;
+}
+// The **= Operator
+function demo46() {
+  let x = 10;
+  x **= 5;
+  
+  document.getElementById("demo46").innerHTML = "Value of x is: " + x;
+}
+// The /= Operator
+function demo47() {
+  let x = 10;
+  x /= 5;
+  
+  document.getElementById("demo47").innerHTML = "Value of x is: " + x;
+}
+// The %= Operator
+function demo48() {
+  let x = 10;
+  x %= 5;
+  
+  document.getElementById("demo48").innerHTML = "Value of x is: " + x;
+}
+//Shift Assignment Operators
+/*Mathematically, this is equivalent to x = x * 2^y
+x = -100 * 2^5
+*/
+// The <<= Operator
+function demo49() {
+  let x = -100;
+  x <<= 5;
+  //x = -100 * 2^5
+  document.getElementById("demo49").innerHTML = "Value of x is: " + x;
+}
+
+// The >>= Operator
+/*Mathematically, this is equivalent to x = x/2^y
+​x = -100 / 2^5
+ */
+function demo50() {
+  let x = -100;
+  x >>= 5;
+
+  document.getElementById("demo50").innerHTML = "Value of x is: " + x;
+}
+// The >>>= Operator
+function demo51() {
+  let x = -100;
+  x >>>= 5;
+
+  document.getElementById("demo51").innerHTML = "Value of x is: " + x;
+}
+//Bitwise Assignment Operators
+// The &= Operator
+function demo52() {
+  let x = 100;
+  x &= 5;
+
+  document.getElementById("demo52").innerHTML = "The Value of x is " + x;
+}
+// The |= Operator
+function demo53() {
+  let x = 100;
+  x |= 5;
+
+  document.getElementById("demo53").innerHTML = "The Value of x is " + x;
+}
+// The ^= Operator
+function demo54() {
+  let x = 100;
+  x ^= 5;
+
+  document.getElementById("demo54").innerHTML = "The Value of x is " + x;
+}
+
+//Logical Assignment Operators
+// The &&= Operator
+function demo55() {
+  let x = 100;
+  x &&= 5;
+
+  document.getElementById("demo55").innerHTML = "The Value of x is " + x;
+}
+
+// The ||= Operator
+function demo56() {
+  let x = 100;
+  x ||= 5;
+
+  document.getElementById("demo56").innerHTML = "The Value of x is " + x;
+}
+// The ??= Operator
+function demo57() {
+  let x = 100;
+  x ??= 5;
+
+  document.getElementById("demo57").innerHTML = "The Value of x is " + x;
+}
 
 //JAVASCRIPT DATA TYPES
 
