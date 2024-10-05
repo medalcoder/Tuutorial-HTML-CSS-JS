@@ -28,7 +28,6 @@ function demo3() {
 }
 
 //JAVASCRIPT SYNTAX
-
 //Javascript Numbers
 function demo4() {
   document.getElementById("demo4").innerHTML = 10.54;
@@ -258,6 +257,7 @@ function demo29() {
 
   document.getElementById("demo29").innerHTML = "Is letter A lesser than letter B? " + result;
 }
+
 //JavaScript String Addition
 function demo30() {
   let text1 = "Hello";
@@ -488,12 +488,138 @@ function demo57() {
 }
 
 //JAVASCRIPT DATA TYPES
+// JavaScript string
+function demo58() {
+  let answer1 = "It's alright";
+  let answer2 = "He is called 'Johnny'";
+  let answer3 = 'He is called "Johnny"';
+
+  document.getElementById("demo58").innerHTML = answer1 + "<br>" + answer2 + "<br>" + answer3;
+}
+// JavaScript Numbers
+function demo59() {
+  let x1 = 34.00;
+  let x2 = 34;
+
+  document.getElementById("demo59").innerHTML = x1 * x2;
+}
+// Exponential Notation
+function demo60() {
+  let y = 123e5;
+  let z = 123e-5;
+
+  document.getElementById("demo60").innerHTML = y + "<br>" + z;
+}
+// JavaScript BigInt
+function demo61() {
+  let y = BigInt("123456789012345678901234567890")
+
+  document.getElementById("demo61").innerHTML = y;
+}
+// JavaScript Booleans
+function demo62() {
+  let x = 5;
+  let y = 5;
+  let z = 6;
+  
+  document.getElementById("demo62").innerHTML = (x == y) + "<br>" + (x == z);
+}
+
+// JavaScript Arrays
+function demo63() {
+  const cars = ["Saab", "Volvo", "BMW"];
+
+  document.getElementById("demo63").innerHTML = cars[0];
+}
+// Javascript Objects
+function demo64() {
+  const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+  document.getElementById("demo64").innerHTML = firstName;
+}
+// The typeof Operator
+// Code written in HTML file
+
+// Undefined
+// Code written in HTML file
+
+// Empty Values
+function demo67() {
+  let car = "";
+
+  document.getElementById("demo67").innerHTML = "The value is: " + car + "<br>" + "The type is: " + typeof car;
+}
 
 //JAVASCRIPT FUNCTIONS
+// Function return
+// Code written in HTML file
+
+// The () Operator
+function demo69(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+
+// Function Used as Variable Values
+
+// Local variables
 
 //JAVASCRIPT OBJECTS
+// Creating a JavaScript Object
+function demo72() {
+
+}
+
+//Empty JavaScript Object
+function demo73() {
+  const person = {};
+
+  person.firstName = "John";
+  person.lastName = "Doe";
+  person.age = 50;
+  person.eyeColor = "blue";
+
+  document.getElementById("demo73").innerHTML = "The victim name is " + firstName;
+}
+
+// Using the new Keyword
+function demo74() {
+  const person = new demo67();
+
+  person.firstName = "John";
+  person.lastName = "Doe";
+  person.age = 50;
+  person.eyeColor = "blue";
+
+  document.getElementById("demo74").innerHTML = "The victim name is " + firstName;
+}
+
+// Accessing Object Properties
+function demo75() {
+  const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"
+};
+
+document.getElementById("demo75").innerHTML = "the lastname is " + person["lastName"];
+}
+// JavaScript Object Methods
+function demo76() {
+      return this.firstname + " " + this.lastName;
+
+    }
+// JavaScript Objects are Mutable
 
 //JAVASCRIPT OBJECT PROPERTIES
+// Accessing JavaScript Properties
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyecolo: "blue"
+}
+// Adding New Properties
+
+// Deleting Properties
+
+// Nested Objects
 
 //JAVASCRIPT OBJECT METHODS
 
@@ -510,7 +636,19 @@ function demo57() {
 //JAVASCRIPT STRING SEARCH
 
 //JAVASCRIPT STRING TEMPLATES
+// Back-Tics Syntax
 
+// Quotes Inside Strings
+
+// Multiline Strings
+
+// Interpolation
+
+// Variable Substitutions
+
+// Expression Substitution
+
+// HTML Templates
 
 //JAVASCRIPT NUMBERS
 
@@ -777,7 +915,3 @@ function demo57() {
 // JAVASCRIPT CHART.JS
 // JAVASCRIPT GOOGLE CHART
 // JAVASCRIPT D3.JS
-
-
-
-
